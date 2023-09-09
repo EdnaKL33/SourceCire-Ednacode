@@ -16,6 +16,7 @@ ENGINE=InnoDB
 AUTO_INCREMENT=3
 ;
 
+-- modificaciones en la tabla way_to_attends
 CREATE TABLE `ctt_way_to_attends` (
 	`wta_id` INT(11) NOT NULL AUTO_INCREMENT COMMENT 'Id de la forma para atender un proyecto',
 	`wta_descripcion` VARCHAR(100) NULL DEFAULT NULL COMMENT 'Descripcion de la forma de atencion' COLLATE 'utf8mb4_general_ci',
